@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333A41;
+}
+
+header .logo {
+    margin: 0px auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    background-color: #333A41;
+    height: 50px;
+    margin: 0px auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+nav ul li a {
+    text-align: none;
+    font-size: 13px;
+    color: #5d9ea4;
+    margin: 0 15px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.tickets {
+    color: #a0b04e;
+}
